@@ -18,6 +18,8 @@ run the jupyter notebook: `pre_process_dataset.ipynb`
 `transfer_learning_tutorial.ipynb`
 * Code adapted from: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
 
+ckpt: A pre-trained ckpt can be found [here](https://github.com/rickywrq/White-Blood-Cell-Classification-and-TSNE-Visualization/releases/download/ckpt/model_wbc_resnet50_v2.pth). Please download and put it in `ckpt/`.
+
 ## Visualization
 `wbc_resnet_tsne.ipynb`
 * Code adapted from: https://learnopencv.com/t-sne-for-feature-visualization/
