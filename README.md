@@ -14,7 +14,7 @@ This project focuses on classifying white blood cells (WBCs) using deep learning
 
 ### t-SNE Visualization
 ![t-SNE Visualization](assets/tsne.png?raw=true "t-SNE Feature Visualization")
-
+![t-SNE Visualization](assets/tsne_fig.png?raw=true "t-SNE Feature Visualization")
 ## Getting Started
 Follow these steps to set up and execute the project:
 
@@ -36,4 +36,6 @@ Use the `transfer_learning_tutorial.ipynb` notebook to train the classification 
 A pre-trained model checkpoint is available [here](https://github.com/rickywrq/White-Blood-Cell-Classification-and-TSNE-Visualization/releases/download/ckpt/model_wbc_resnet50_v2.pth). Download it and place it in the `ckpt/` directory.
 
 ### 5. Visualization
-Use the `wbc_resnet_tsne.ipynb` notebook to visualize the extracted features using t-SNE. The code is adapted from the [tutorial](https://learnopencv.com/t-sne-for-feature-visualization/).
+Use the `wbc_resnet_tsne.ipynb` or `wbc_resnet_tsne_resnet34.ipynb` notebook to visualize the extracted features using t-SNE. The code is adapted from the [tutorial](https://learnopencv.com/t-sne-for-feature-visualization/).
+
+Examples of visualizations can be found in `./visualizations/`
